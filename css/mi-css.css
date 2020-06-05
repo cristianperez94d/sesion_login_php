@@ -1,0 +1,68 @@
+body{
+  --tamaño-icono: 30px;
+  --color-input: hsl(200, 95%, 33%);
+  --color-button: hsl(207, 96%, 22%);
+  --color-link: hsl(0, 0%, 100%);
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    hsl(200, 95%, 33%) 25%,
+    hsl(0, 0%, 100%)
+    );
+}
+
+.mi-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 360px;
+}
+.mi-card{
+  background: hsl(0, 0%, 100%,.9); 
+  border: 0;
+  color: var(--color-input);
+}
+.mi-div{
+  position: relative;
+}
+.mi-alerta{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 6px;
+  padding-right: 6px; 
+}
+.mi-input{
+  padding-left: var(--tamaño-icono);
+  border: 0;
+  color: var(--color-input);
+}
+.mi-icono-login{
+  align-self: center;
+  color: var(--color-input);
+  position: absolute;
+  z-index: 10;
+  padding: 12px 0;
+  left: 0px;
+  height: 100%;
+  width: var(--tamaño-icono);
+}
+.mi-boton{
+  transition-duration: 0.4s;
+  background: var(--color-button);
+  border-color: var(--color-button); 
+  color: hsl(0, 0%, 100%);
+}
+.mi-boton:hover {
+  background-color: transparent;
+  color: var(--color-input);
+}
+.mi-link{
+  color: var(--color-link);
+}
+.mi-link:hover{
+  color: var(--color-link);
+  text-decoration: none; 
+}
+.mi-span{
+  font-style: oblique;
+  color: red;
+}
